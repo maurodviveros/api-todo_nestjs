@@ -1,6 +1,6 @@
 {
-  "name": "api-todo_backend",
-  "description": "API GraphQL with NestJS for ToDo APP",
+  "name": "api-todo_nestjs",
+  "description": "API GraphQL with NestJS & MongoDB for ToDo APP",
   "author": "Mauro Daniel Viveros <maurod.viveros@gmail.com> (TRY Ubbe)",
   "version": "0.0.1",
   "license": "MIT",

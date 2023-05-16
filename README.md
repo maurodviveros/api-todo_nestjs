@@ -1,4 +1,4 @@
-# API - 📋 ToDo Backend
+# API - 📋 ToDo NestJS
 *API GraphQL with NestJS for ToDo APP*
 
 ![NestJS][nestjs-badge]
