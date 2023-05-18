@@ -1,7 +1,12 @@
 {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "editor.formatOnSave": true
+  "material-icon-theme.files.associations": {
+    "*.schema.ts": "graphql",
+    "*.resolver.ts": "nest-resolver",
+    "*.service.ts": "nest-service",
+    "*.module.ts": "nest-module"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
