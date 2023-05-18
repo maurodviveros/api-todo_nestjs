@@ -3,19 +3,18 @@ import { GraphQLModule } from "@nestjs/graphql";
 import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 
 import { MongooseModule } from "@nestjs/mongoose";
-import { AppResolver } from "./app.resolver";
+
+import { TaskModule } from "./modules/task/task.module";
 
 @Module({
   imports: [
-    MongooseModule.forRoot(
-      "mongodb+srv://courses:courses@courses.shrxl5n.mongodb.net/nestjs_todo",
-    ),
+    MongooseModule.forRoot("mongodb+srv://courses:courses@courses.shrxl5n.mongodb.net/nestjs_todo"),
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
       autoSchemaFile: true,
-      sortSchema: true,
+      sortSchema: true
     }),
-  ],
-  providers: [AppResolver],
+    TaskModule
+  ]
 })
 export class AppModule {}
