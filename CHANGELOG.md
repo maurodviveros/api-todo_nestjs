@@ -1,3 +1,14 @@
+## [0.0.2](https://github.com/maurodviveros/API-todo_nestjs/compare/v0.0.1...v0.0.2) (2023-05-18)
+
+
+### Features
+
+* :package: update AppModule ([a766e0b](https://github.com/maurodviveros/API-todo_nestjs/commit/a766e0beefe7e895c6363386d7d8e687cb835316))
+* :sparkles: add TaskModule w/ CRUD ([d961800](https://github.com/maurodviveros/API-todo_nestjs/commit/d961800d189b391bba5a2169e7ccfaf1cd5ae328))
+* 📄 create LICENSE ([3204c91](https://github.com/maurodviveros/API-todo_nestjs/commit/3204c919ea30f27261d2882f3cd4d7d78fbf4465))
+
+
+
 ## 0.0.1 (2023-05-16)
 
 
