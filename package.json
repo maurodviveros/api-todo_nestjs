@@ -20,7 +20,7 @@
     "@nestjs/mongoose": "^10.0.4",
     "@nestjs/platform-express": "^10.3.7",
     "graphql": "^16.8.1",
-    "mongoose": "^7.3.3",
+    "mongoose": "^8.2.4",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
   },
